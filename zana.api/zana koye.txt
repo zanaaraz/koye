@@ -1,0 +1,120 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "hashed_password",
+      "date_joined": "2024-03-28",
+      "profile": {
+        "name": "User One",
+        "age": 30,
+        "gender": "Male",
+        "location": "City, Country",
+        "profile_picture": "path/to/profile_picture.jpg",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      "preferences": {
+        "preferred_language": "English",
+        "timezone": "UTC+0"
+      },
+      "history": {
+        "sessions_completed": 5,
+        "tasks_completed": 20,
+        "achievements_unlocked": ["Achievement 1", "Achievement 2"]
+      },
+      "appointments": [
+        {
+          "id": 1,
+          "date_time": "2024-04-01T09:00:00",
+          "therapist": "Dr. Smith",
+          "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        },
+        {
+          "id": 2,
+          "date_time": "2024-04-10T14:00:00",
+          "therapist": "Dr. Johnson",
+          "notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        }
+      ],
+      "medication_reminders": [
+        {
+          "id": 1,
+          "medication_name": "Antidepressant",
+          "dosage": "20mg",
+          "frequency": "Once daily",
+          "next_dose_time": "2024-03-29T08:00:00",
+          "notes": "Take with food."
+        }
+      ]
+    }
+  ],
+  "therapists": [
+    {
+      "id": 1,
+      "name": "Dr. Smith",
+      "specialization": "Clinical Psychology",
+      "location": "City, Country",
+      "contact": "contact@example.com",
+      "availability": [
+        {
+          "day": "Monday",
+          "start_time": "09:00",
+          "end_time": "17:00"
+        },
+        {
+          "day": "Wednesday",
+          "start_time": "10:00",
+          "end_time": "18:00"
+        }
+      ],
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 2,
+      "name": "Dr. Johnson",
+      "specialization": "Psychiatry",
+      "location": "City, Country",
+      "contact": "contact@example.com",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "start_time": "11:00",
+          "end_time": "19:00"
+        },
+        {
+          "day": "Thursday",
+          "start_time": "12:00",
+          "end_time": "20:00"
+        }
+      ],
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
+  "medications": [
+    {
+      "id": 1,
+      "name": "Antidepressant",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "id": 2,
+      "name": "Anti-anxiety",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Mindfulness Meditation",
+      "description": "Practice mindfulness meditation for 10 minutes.",
+      "duration": "10 minutes"
+    },
+    {
+      "id": 2,
+      "title": "Deep Breathing",
+      "description": "Practice deep breathing exercise for 5 minutes.",
+      "duration": "5 minutes"
+    }
+  ]
+}
